@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tag input</title>
+  </head>
+  <body>
+
+<!--titolo-->
+
+    <h1> Registrazione Sito Internet </h1>
+
+    <hr>
+
+    <br>
+
+<!--Inseimento Dati-->
+
+  <form action="landingpage.html" method="post">
+
+    <div><input type="text" name="Nome" placeholder="Inserisci il tuo nome"></div>
+    <div><input type="text" name="Cognome" placeholder="Inserisci il tuo cognome" required></div>
+    <div><input type="email" name="Indirizzo Email" placeholder="Inserisci la tua E-Mail" required></div>
+    <div><input type="password" placeholder="Inserisci una password" required></div>
+
+<!--Opzioni selezione regione-->
+
+   <div>
+
+     <select name="Regione di Residenza">
+
+       <option value="Lazio"> Lazio </option>
+       <option value="Toscana"> Tocana </option>
+       <option value="Abruzzo"> Abruzzio </option>
+
+     </select>
+
+   </div>
+
+
+<!--Eta`, presa visione termini e Condizioni, bottone di conferma invio dati-->
+
+    <div><input type="radio" name="Eta`" value="0-18" required> <strong> 0-18 </strong>
+    <input type="radio" name="Eta`" value="18+" required> <strong> 18+ </strong></div>
+    <div><input type="checkbox" name="Presa Visione Termini e Condizioni" value="Accetta i Termini e Condizioni" required> <a href="https://www.altalex.com/documents/codici-altalex/2018/03/05/regolamento-generale-sulla-protezione-dei-dati-gdpr"> <strong> Accetta Termini e Condizioni </strong> </a> </div>
+    <input type="submit" name="Conferma invio dati sovrastanti" value="Invia">
+
+  </form>
+
+  </body>
+
+</html>

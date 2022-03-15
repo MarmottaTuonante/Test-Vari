@@ -1,0 +1,27 @@
+*{box-sizing: border-box;}
+
+body{background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);}
+
+.container{width: 1000px; margin: auto;}
+
+#logotext{font-size: 20px; color: white; display: inline-block;line-height: 0px;}
+
+#logo{width: 65; height: 55px;}
+
+#button{width: 200px;}
+
+h2{color: white;}
+
+#counter{ color: white; background-color: orange; padding: 2.5px; border-radius: 100%;}
+
+.leftrow{display: inline-block; width: 37%;}
+
+.rightrow{display: inline-block; width: 62%;}
+
+.row{background-color: lightgray; border-style: solid; border-width: thin; margin-top: 2px;}
+
+#powered{color: white; font-style: italic; font-weight: bold; display: inline-block; word-spacing: 1.5px;}
+
+#gmail{display: inline-block; color: white; font-weight: bold; font-size: 20px;}
+
+.footer{text-align: center;}
